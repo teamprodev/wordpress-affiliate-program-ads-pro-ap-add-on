@@ -1,0 +1,120 @@
+#bsaProAffiliateWrapper {
+	display: block;
+	width: 100%;
+	color: black;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	overflow: hidden;
+	clear: both;
+}
+.bsaProAffiliateBalance {
+	float: left;
+	width: 100%;
+	max-width: 360px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 15px;
+}
+.bsaProAffiliateBalanceLeft {
+	float: right;
+	width: 45%;
+	background-color: #673ab7;
+	padding: 15px 2.5%;
+	border-radius: 0 5px 5px 0;
+}
+.bsaProAffiliateBalanceRight {
+	float: left;
+	width: 45%;
+	background-color: #8e6acf;
+	padding: 15px 2.5%;
+	border-radius: 5px 0 0 5px;
+}
+#bsaProAffiliateWrapper .bsaProAffiliateBalanceRight a,
+#bsaProAffiliateWrapper .bsaProAffiliateBalanceRight a:hover,
+#bsaProAffiliateWrapper .bsaProAffiliateBalanceRight a:active,
+#bsaProAffiliateWrapper .bsaProAffiliateBalanceRight a:focus,
+#bsaProAffiliateWrapper .bsaProAffiliateBalanceRight a:visited {
+	color: #ffd71a;
+}
+.bsaProAffiliateUrl {
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+.bsaProAffiliateUrl h2 {
+	margin: 40px 0 10px !important;
+}
+.bsaProAffiliateUrlInner {
+	display: inline-block;
+	background-color: #ffd71a;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.bsaProCopyURL {
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+#bsaProCopyClipboard {
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 20px;
+	background-image: url('../img/clipboard.png');
+	cursor: pointer;
+}
+.bsaProAffiliateList {
+	float: right;
+	width: 100%;
+	overflow: auto;
+}
+.bsaProAffiliateList h4 {
+	margin: 40px 0 0 !important;
+}
+#bsaProAffiliateTable {
+	float: right;
+	width: 100% !important;
+	margin: 10px 0 0 !important;
+	min-width: 600px;
+	border-radius: 5px;
+}
+#bsaProAffiliateTable,
+#bsaProAffiliateTable th {
+	color: black;
+	background-color: white;
+	border: 0;
+}
+#bsaProAffiliateTable tr,
+#bsaProAffiliateTable th,
+#bsaProAffiliateTable td {
+	text-align: center;
+	padding: 5px 10px;
+	border: 0;
+}
+#bsaProAffiliateTable tr {
+	border-bottom: 1px solid #ededed;
+}
+#bsaProAffiliateTable tr:last-of-type {
+	border-bottom: 0;
+}
+#bsaProAffiliateTable tr.bsaProFirst,
+#bsaProAffiliateTable th.bsaProFirst,
+#bsaProAffiliateTable td.bsaProFirst {
+	text-align: right;
+}
+#bsaProAffiliateTable th.bsaProFirst {
+	border-top-right-radius: 5px;
+}
+#bsaProAffiliateTable tr.bsaProLast,
+#bsaProAffiliateTable th.bsaProLast,
+#bsaProAffiliateTable td.bsaProLast {
+	text-align: left;
+	font-weight: bold;
+}
+#bsaProAffiliateTable th.bsaProLast {
+	border-top-left-radius: 5px;
+}
